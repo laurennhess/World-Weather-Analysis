@@ -9,8 +9,8 @@
 
 
 ## Customer Travel Map
-#### Once the customer gives their minimum and maximum weather preferences, potential travel destinations were provided were the current description field being the max temperature. From there, the customer could narrow down the location that fits their weather preferences the best.
-<img width="742" alt="WeatherPy_vacation_map" src="https://user-images.githubusercontent.com/94096530/154412383-c37914d8-12de-4231-a70e-6bf58c951346.png">
+#### Once the customer gives their minimum and maximum weather preferences, potential travel destinations were provided along with the current description of weather. From there, the customer could narrow down the location that fits their weather preferences the best.
+<img width="728" alt="WeatherPy_vacation_map" src="https://user-images.githubusercontent.com/94096530/154417468-d84245d0-5366-482e-b2b7-bba3390c8be3.png">
 
 ## Travel Itinerary Map
 #### Lastly, using the Google Directions API, the user could choose up to four destinations they wanted to travel to. Then after choosing their travel mode, a travel itinerary and map with markers is provided to the user. This map shoes the destinations they have identified for each stop, and shows the best route. In this case, the user's travel mode is driving.
