@@ -4,8 +4,9 @@
 ### The purpose of the world weather analysis is to enhance the PlanMyTrip app to take it to the next level. Users will be able to filter the data for their weather preferences to identify potential travel destinations, then choose four cities to create a travel itinerary. Then, using the Google Maps Directions API, a travel route between the four cities will be provided with a marker layer map.
 
 ## Retrieving the Weather Data
-#### To retrieve the Weather Data, we connecred to the weather_api_key to get the data for our randomly generated latitudes and longitudes. Then, we added the data to a new dataframe called "city_data_df" and created the output file to a CSV name WeatherPy_Database.
-<img width="784" alt="Screen Shot 2022-02-16 at 9 34 02 PM" src="https://user-images.githubusercontent.com/94096530/154412007-673dbd34-663e-42fb-a5b2-2b2219007f11.png">
+#### To retrieve the Weather Data, we connected to the weather_api_key to get the data for our randomly generated latitudes and longitudes. We added the current description to the data and added it to a new dataframe called "city_data_df". Then we created the output file to a CSV name WeatherPy_Database to use throughout the rest of our analysis.
+<img width="802" alt="Screen Shot 2022-02-16 at 10 06 31 PM" src="https://user-images.githubusercontent.com/94096530/154415560-4934bd5c-2834-40e5-9540-d54c5ad739a7.png">
+
 
 ## Customer Travel Map
 #### Once the customer gives their minimum and maximum weather preferences, potential travel destinations were provided were the current description field being the max temperature. From there, the customer could narrow down the location that fits their weather preferences the best.
